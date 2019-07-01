@@ -132,7 +132,7 @@ fi
 
 ######### Migration: old pregen environment to new environment ############
 if [[ ! -z $BTCPAY_DOCKER_COMPOSE ]] && [[ ! -z $DOWNLOAD_ROOT ]] && [[ -z $BTCPAYGEN_OLD_PREGEN ]]; then
-    echo "Your deployment is too old, you need to migrate by following instructions on this link https://github.com/bitopayway/btcpayserver-docker/tree/master#i-deployed-before-btcpay-setupsh-existed-before-may-17-can-i-migrate-to-this-new-system"
+    echo "Your deployment is too old, you need to migrate by following instructions on this link https://github.com/bitopay/btcpayserver-docker/tree/master#i-deployed-before-btcpay-setupsh-existed-before-may-17-can-i-migrate-to-this-new-system"
     return
 fi
 #########################################################
